@@ -140,8 +140,6 @@ yarn
 - Password recover
 - Profile update
 - Multiple themes with the ability to add your own
-- Group chat with basic permissions
-- Private chat (also with yourself)
 - Rate limiting
 
 ## TECH STACK
@@ -149,27 +147,9 @@ yarn
     - Nest.js
     - PostgreSQL
     - Redis
-    - WebSockets
     - JWT
     - Passport.js
 - Frontend
     - Next.js
     - Tailwind & DaisyUI
     - Redux ([rematch](https://rematchjs.org/))
-## TO DO
-- [x] Local login
-- [x] Google login
-- [x] Facebook login
-- [x] Client app routing
-- [x] Write tests for API
-- [x] Password recover & change features
-- [x] Queues
-- [x] Refresh tokens
-- [X] Chat
-- [ ] Make URL preview
-- [ ] Enable sending images and maybe videos
-- [ ] Public profile page
-- [ ] Refactor chat backend & UI
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
